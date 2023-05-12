@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3XD+y{A(e;5TgY|LMXYY">e</variable></variables><block type="pxt-on-start" id="i?j-R!(_,o-gSsCfbymc" x="0" y="0"></block><block type="device_button_event" id="AKg@YXk{bLhFL{/~C_hr" x="665" y="-28"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id=":qb}u*j,pyk7Mr=03,]z"><field name="VAR" id="3XD+y{A(e;5TgY|LMXYY">e</field><value name="VALUE"><shadow type="math_number" id="qY`0K2zn/Jv3?|z`D-;c"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_forever" id="j5[fbtejt9$@aHG8RYYv" x="16" y="49"><statement name="HANDLER"><block type="device_while" id="Ci5L/DPHs:j42F]SP/1`"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="9le^Pqe!)Es}Olo9oW=*"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="xFe_mk6[]$nBo;5tN-#/"><field name="VAR" id="3XD+y{A(e;5TgY|LMXYY">e</field></block></value><value name="B"><shadow type="math_number" id="-7MnhI=%A^A*/7e{kS,r"><field name="NUM">1</field></shadow></value></block></value><statement name="DO"><block type="device_show_leds" id="9x:qBQCudyXY(gux*Cx*"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="b9fquoj3w-xo6t93)iUw"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id="rUp*C=i;*`X%*fiH7/Sr" x="627" y="178"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="cz_u_v^I0p+f1Coc.aE,"><field name="VAR" id="3XD+y{A(e;5TgY|LMXYY">e</field><value name="VALUE"><shadow type="math_number" id="epx9+Ud3e/WoJ#NuNxMa"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
